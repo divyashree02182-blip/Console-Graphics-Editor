@@ -1,2 +1,33 @@
 # Console-Graphics-Editor
-This project implements a simple menu-driven 2D Graphics Editor in C using a 2D character array as a drawing canvas. The canvas is initially filled with _ characters, and graphical objects are drawn using *. The editor supports drawing lines, rectangles, circles, and triangles, as well as adding, deleting, and modifying objects.
+
+Description
+This project is a menu-driven 2D Graphics Editor implemented using the C programming language and a 2D character array.
+The canvas is initialized with "_" (underscore) characters, and graphical objects are drawn using "*" (asterisk) characters. The editor allows users to create, delete, modify, and display various geometric shapes on the canvas through an interactive menu-driven interface.
+
+
+Features
+Draw Rectangle
+Draw Line
+Draw Triangle
+Draw Circle
+Delete Objects
+Modify Objects
+Display Canvas
+Clear Canvas
+Concepts Used
+Arrays
+Functions
+Loops
+Conditional Statements
+2D Character Array
+Basic Graphics Algorithms
+
+
+Compilation
+
+gcc graphics_editor.c -o graphics_editor -lm
+./graphics_editor
+
+
+Author
+Divya Shree
